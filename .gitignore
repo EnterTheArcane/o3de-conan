@@ -46,11 +46,11 @@ dist/
 downloads/
 eggs/
 .eggs/
+experimental/
 lib/
 lib64/
 output/
 parts/
-scripts/
 sdist/
 temp/
 tmp/
