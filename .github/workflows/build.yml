@@ -23,3 +23,7 @@ jobs:
 
       - name: Setup conan
         uses: conan-io/setup-conan@v1
+        with:
+          version: "2.24"
+          cache_packages: true
+          profile_detect: false
