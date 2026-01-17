@@ -16,7 +16,7 @@ import os
 required_conan_version = ">=1.54.0"
 
 
-class PugiXmlConan(ConanFile):
+class Recipe(ConanFile):
     name = "pugixml"
     version = "1.15"
     license = "MIT"

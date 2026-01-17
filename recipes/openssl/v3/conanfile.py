@@ -15,7 +15,7 @@ import textwrap
 required_conan_version = ">=1.57.0"
 
 
-class OpenSSLConan(ConanFile):
+class Recipe(ConanFile):
     name = "openssl"
     version = "3.6.0"
     license = "Apache-2.0"

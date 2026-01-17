@@ -6,7 +6,7 @@ import os
 import re
 
 
-class TestPackageConan(ConanFile):
+class Recipe(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
     generators = "cmake"
 

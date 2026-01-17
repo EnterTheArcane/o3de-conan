@@ -13,7 +13,7 @@ import os
 required_conan_version = ">=1.54.0"
 
 
-class OpenDDLParserConan(ConanFile):
+class Recipe(ConanFile):
     name = "openddl-parser"
     version = "0.5.1"
     license = "MIT"

@@ -8,7 +8,7 @@ import os
 required_conan_version = ">=1.53.0"
 
 
-class Sqlite3Conan(ConanFile):
+class Recipe(ConanFile):
     name = "sqlite3"
     version = "3.51.0"
     license = "Unlicense"

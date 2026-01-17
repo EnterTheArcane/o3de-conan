@@ -13,7 +13,7 @@ import os
 required_conan_version = ">=1.53.0"
 
 
-class MinizipConan(ConanFile):
+class Recipe(ConanFile):
     name = "minizip"
     version = "1.3.1"
     license = "Zlib"

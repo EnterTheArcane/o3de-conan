@@ -11,7 +11,7 @@ import os
 required_conan_version = ">=1.53.0"
 
 
-class LibsquishConan(ConanFile):
+class Recipe(ConanFile):
     name = "libsquish"
     version = "1.15"
     license = "MIT"

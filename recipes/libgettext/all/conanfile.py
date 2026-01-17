@@ -14,7 +14,7 @@ from conan.tools.scm import Version
 required_conan_version = ">=2.0"
 
 
-class GetTextConan(ConanFile):
+class Recipe(ConanFile):
     name = "libgettext"
     version = "0.26"
     # Some parts of the project are GPL-3.0-or-later and some are LGPL-2.1-or-later.

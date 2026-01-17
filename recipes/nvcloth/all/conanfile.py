@@ -19,7 +19,7 @@ from conan.tools.microsoft import check_min_vs, is_msvc_static_runtime
 required_conan_version = ">=1.53.0"
 
 
-class NvclothConan(ConanFile):
+class Recipe(ConanFile):
     name = "nvcloth"
     version = "1.1.6"
     license = "Nvidia Source Code License (1-Way Commercial)"

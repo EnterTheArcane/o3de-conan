@@ -7,7 +7,7 @@ import os
 required_conan_version = ">=2.1"
 
 
-class ZipConan(ConanFile):
+class Recipe(ConanFile):
     name = "kuba-zip"
     version = "0.3.2"
     license = "Unlicense"

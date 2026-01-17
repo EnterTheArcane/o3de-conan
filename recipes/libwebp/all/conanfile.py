@@ -14,7 +14,7 @@ import os
 required_conan_version = ">=1.53.0"
 
 
-class LibwebpConan(ConanFile):
+class Recipe(ConanFile):
     name = "libwebp"
     version = "1.6.0"
     license = "BSD-3-Clause"

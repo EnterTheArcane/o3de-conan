@@ -17,7 +17,7 @@ import textwrap
 required_conan_version = ">=1.54.0"
 
 
-class SpirvCrossConan(ConanFile):
+class Recipe(ConanFile):
     name = "spirv-cross"
     version = "1.4.321.0"
     license = "Apache-2.0"

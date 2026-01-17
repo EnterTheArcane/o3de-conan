@@ -11,7 +11,7 @@ import os
 required_conan_version = ">=1.52.0"
 
 
-class RapiXMLConan(ConanFile):
+class Recipe(ConanFile):
     name = "rapidxml"
     version = "1.13"
     license = ["BSL-1.0", "MIT"]

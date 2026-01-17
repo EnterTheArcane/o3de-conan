@@ -27,7 +27,7 @@ from conan.errors import ConanException, ConanInvalidConfiguration
 required_conan_version = ">=2.0"
 
 
-class QtConan(ConanFile):
+class Recipe(ConanFile):
     name = "qt"
     version = "6.10.1"
     license = "LGPL-3.0-only"

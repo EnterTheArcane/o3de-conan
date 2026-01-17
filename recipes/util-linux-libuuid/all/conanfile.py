@@ -10,7 +10,7 @@ import os
 required_conan_version = ">=1.53.0"
 
 
-class UtilLinuxLibuuidConan(ConanFile):
+class Recipe(ConanFile):
     name = "util-linux-libuuid"
     version = "2.41.2"
     description = "Universally unique id library"

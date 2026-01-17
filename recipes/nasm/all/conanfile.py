@@ -18,7 +18,7 @@ import shutil
 required_conan_version = ">=1.55.0"
 
 
-class NASMConan(ConanFile):
+class Recipe(ConanFile):
     name = "nasm"
     version = "3.01"
     license = "BSD-2-Clause"

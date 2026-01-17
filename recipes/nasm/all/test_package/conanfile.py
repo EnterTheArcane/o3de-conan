@@ -2,7 +2,7 @@ from conan import ConanFile
 from conan.tools.build import can_run
 
 
-class TestPackageConan(ConanFile):
+class TestPackage(ConanFile):
     settings = "os", "arch", "compiler", "build_type"
 
     def requirements(self):

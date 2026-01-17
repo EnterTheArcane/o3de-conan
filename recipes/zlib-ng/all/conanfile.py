@@ -11,7 +11,7 @@ import re
 required_conan_version = ">=2"
 
 
-class ZlibNgConan(ConanFile):
+class Recipe(ConanFile):
     name = "zlib-ng"
     version = "2.3.2"
     license = "Zlib"

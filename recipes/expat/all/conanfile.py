@@ -14,7 +14,7 @@ import os
 required_conan_version = ">=1.53.0"
 
 
-class ExpatConan(ConanFile):
+class Recipe(ConanFile):
     name = "expat"
     version = "2.7.3"
     license = "MIT"

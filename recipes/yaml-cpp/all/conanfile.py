@@ -17,7 +17,7 @@ import os
 required_conan_version = ">=2.1"
 
 
-class YamlCppConan(ConanFile):
+class Recipe(ConanFile):
     name = "yaml-cpp"
     version = "0.8.0"
     license = "MIT"

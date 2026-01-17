@@ -6,7 +6,7 @@ from conan.tools.layout import basic_layout
 from conan.tools.meson import Meson
 
 
-class TestPackageConan(ConanFile):
+class TestPackage(ConanFile):
     settings = "os", "arch", "compiler", "build_type"
     generators = "MesonToolchain", "VirtualBuildEnv", "VirtualRunEnv"
     test_type = "explicit"

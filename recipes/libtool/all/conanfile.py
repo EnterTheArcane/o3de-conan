@@ -22,7 +22,7 @@ import shutil
 required_conan_version = ">=2.4"
 
 
-class LibtoolConan(ConanFile):
+class Recipe(ConanFile):
     name = "libtool"
     version = "2.4.7"
     license = ("GPL-2.0-or-later", "GPL-3.0-or-later")

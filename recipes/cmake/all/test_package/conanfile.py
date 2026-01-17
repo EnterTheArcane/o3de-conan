@@ -4,7 +4,7 @@ from conan.tools.build import can_run
 import re
 
 
-class TestPackageConan(ConanFile):
+class TestPackage(ConanFile):
     settings = "os", "arch", "compiler", "build_type"
     test_type = "explicit"
 

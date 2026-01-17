@@ -6,7 +6,7 @@ import os
 required_conan_version = ">=1.53.0"
 
 
-class LibdeflateConan(ConanFile):
+class Recipe(ConanFile):
     name = "libdeflate"
     version = "1.25"
     license = "MIT"

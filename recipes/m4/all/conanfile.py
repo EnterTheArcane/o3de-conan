@@ -19,7 +19,7 @@ import shutil
 required_conan_version = ">=1.55.0"
 
 
-class M4Conan(ConanFile):
+class Recipe(ConanFile):
     name = "m4"
     version = "1.4.20"
     license = "GPL-3.0-only"

@@ -9,7 +9,7 @@ from conan.errors import ConanInvalidConfiguration
 required_conan_version = ">=2"
 
 
-class CMakeConan(ConanFile):
+class Recipe(ConanFile):
     name = "cmake"
     version = "4.2.1"
     license = "BSD-3-Clause"

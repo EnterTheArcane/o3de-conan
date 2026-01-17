@@ -6,7 +6,7 @@ import os
 required_conan_version = ">=1.50.0"
 
 
-class RapidjsonConan(ConanFile):
+class Recipe(ConanFile):
     name = "rapidjson"
     version = "1.1.0"
     license = "MIT"

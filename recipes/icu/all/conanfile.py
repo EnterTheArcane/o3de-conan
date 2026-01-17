@@ -28,7 +28,7 @@ from conan.tools.scm import Version
 required_conan_version = ">=1.57.0"
 
 
-class ICUConan(ConanFile):
+class Recipe(ConanFile):
     name = "icu"
     version = "78.1"
     license = "ICU"

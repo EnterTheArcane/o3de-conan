@@ -7,7 +7,7 @@ import os
 required_conan_version = ">=1.52.0"
 
 
-class NinjaConan(ConanFile):
+class Recipe(ConanFile):
     name = "ninja"
     version = "1.13.2"
     license = "Apache-2.0"

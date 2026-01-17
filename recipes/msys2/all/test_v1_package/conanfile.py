@@ -3,7 +3,7 @@ from conans.errors import ConanException
 from io import StringIO
 
 
-class TestPackageConan(ConanFile):
+class Recipe(ConanFile):
     settings = "os", "arch", "compiler", "build_type"
 
     def build(self):

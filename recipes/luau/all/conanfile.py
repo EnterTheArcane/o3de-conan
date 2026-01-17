@@ -9,7 +9,7 @@ import os
 required_conan_version = ">=2"
 
 
-class LuauConan(ConanFile):
+class Recipe(ConanFile):
     name = "luau"
     version = "0.700"
     license = "MIT"

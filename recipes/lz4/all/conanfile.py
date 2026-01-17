@@ -16,7 +16,7 @@ import textwrap
 required_conan_version = ">=2.1"
 
 
-class LZ4Conan(ConanFile):
+class Recipe(ConanFile):
     name = "lz4"
     version = "1.10.0"
     license = ("BSD-2-Clause", "BSD-3-Clause")

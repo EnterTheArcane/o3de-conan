@@ -12,7 +12,7 @@ import os
 required_conan_version = ">=1.52.0"
 
 
-class DirectXHeadersConan(ConanFile):
+class Recipe(ConanFile):
     name = "directx-headers"
     version = "1.618.2"
     license = "MIT"

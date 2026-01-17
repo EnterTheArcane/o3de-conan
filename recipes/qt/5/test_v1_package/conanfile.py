@@ -8,7 +8,7 @@ from conan.tools.files import save
 from conan.errors import ConanInvalidConfiguration
 
 
-class TestPackageConan(ConanFile):
+class Recipe(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
     generators = "cmake", "cmake_find_package_multi", "qmake"
 

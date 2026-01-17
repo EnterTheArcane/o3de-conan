@@ -15,7 +15,7 @@ import os
 required_conan_version = ">=2.0.9"
 
 
-class JoltPhysicsConan(ConanFile):
+class Recipe(ConanFile):
     name = "joltphysics"
     version = "5.2.0"
     license = "MIT"

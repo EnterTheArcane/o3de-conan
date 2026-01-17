@@ -14,7 +14,7 @@ from conan.tools.scm import Version
 conan2 = conan_version.major >= 2
 
 
-class TestPackageConan(ConanFile):
+class TestPackage(ConanFile):
     settings = "os", "arch", "compiler", "build_type"
     test_type = "explicit"
 

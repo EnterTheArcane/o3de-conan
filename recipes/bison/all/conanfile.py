@@ -16,7 +16,7 @@ import os
 required_conan_version = ">=2.4"
 
 
-class BisonConan(ConanFile):
+class Recipe(ConanFile):
     name = "bison"
     version = "3.8.2"
     license = "GPL-3.0-or-later"

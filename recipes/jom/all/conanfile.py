@@ -6,7 +6,7 @@ import os
 required_conan_version = ">=1.47.0"
 
 
-class JomInstallerConan(ConanFile):
+class Recipe(ConanFile):
     name = "jom"
     version = "1.1.4"
     license = "GPL-3.0-only"

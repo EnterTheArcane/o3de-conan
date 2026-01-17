@@ -12,7 +12,7 @@ from conan.tools.scm import Version
 required_conan_version = ">=2"
 
 
-class LibjxlConan(ConanFile):
+class Recipe(ConanFile):
     name = "libjxl"
     version = "0.11.1"
     license = "BSD-3-Clause"

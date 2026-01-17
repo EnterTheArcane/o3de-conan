@@ -2,7 +2,7 @@ from conan import ConanFile
 import os
 
 
-class TestPackageConan(ConanFile):
+class TestPackage(ConanFile):
     settings = "os", "arch", "compiler", "build_type"
     generators = "VirtualBuildEnv"
     test_type = "explicit"

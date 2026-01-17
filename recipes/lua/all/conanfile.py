@@ -18,7 +18,7 @@ from conan.tools.apple import fix_apple_shared_install_name
 required_conan_version = ">=2.1"
 
 
-class LuaConan(ConanFile):
+class Recipe(ConanFile):
     name = "lua"
     version = "5.4.8"
     license = "MIT"

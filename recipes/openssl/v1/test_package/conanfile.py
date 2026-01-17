@@ -4,7 +4,7 @@ from conan.tools.cmake import cmake_layout, CMake, CMakeToolchain
 import os
 
 
-class TestPackageConan(ConanFile):
+class TestPackage(ConanFile):
     settings = "os", "arch", "compiler", "build_type"
     generators = "CMakeDeps", "VirtualRunEnv"
     test_type = "explicit"

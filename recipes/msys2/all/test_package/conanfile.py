@@ -3,7 +3,7 @@ from conan.tools.env import Environment
 from io import StringIO
 
 
-class TestPackageConan(ConanFile):
+class TestPackage(ConanFile):
     settings = "os", "arch"
     generators = "VirtualBuildEnv"
     test_type = "explicit"

@@ -20,7 +20,7 @@ from conan.tools.microsoft import is_msvc, VCVars
 required_conan_version = ">=2.1"
 
 
-class GnConan(ConanFile):
+class Recipe(ConanFile):
     name = "gn"
     version = "cci.20250528"
     license = "BSD-3-Clause"

@@ -17,7 +17,7 @@ from conan.tools.microsoft import is_msvc
 required_conan_version = ">=2.1"
 
 
-class FmtConan(ConanFile):
+class Recipe(ConanFile):
     name = "fmt"
     version = "12.1.0"
     license = "MIT"

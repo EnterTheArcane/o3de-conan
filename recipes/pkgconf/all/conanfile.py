@@ -21,7 +21,7 @@ from conan.tools.scm import Version
 required_conan_version = ">=1.57.0"
 
 
-class PkgConfConan(ConanFile):
+class Recipe(ConanFile):
     name = "pkgconf"
     version = "2.5.1"
     license = "ISC"

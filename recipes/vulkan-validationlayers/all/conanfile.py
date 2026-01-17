@@ -26,7 +26,7 @@ import yaml
 required_conan_version = ">=1.55.0"
 
 
-class VulkanValidationLayersConan(ConanFile):
+class Recipe(ConanFile):
     name = "vulkan-validationlayers"
     version = "1.4.335.0"
     license = "Apache-2.0"

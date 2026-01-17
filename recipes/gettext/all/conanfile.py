@@ -11,7 +11,7 @@ from conan.tools.scm import Version
 
 required_conan_version = ">=2.1"
 
-class GetTextConan(ConanFile):
+class Recipe(ConanFile):
     name = "gettext"
     version = "0.26"
     package_type = "application"

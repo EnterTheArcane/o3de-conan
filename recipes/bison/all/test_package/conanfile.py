@@ -4,7 +4,7 @@ from conan.tools.microsoft import unix_path
 import os
 
 
-class TestPackageConan(ConanFile):
+class TestPackage(ConanFile):
     settings = "os", "arch", "compiler", "build_type"
     generators = "CMakeToolchain", "VirtualBuildEnv", "VirtualRunEnv"
     test_type = "explicit"

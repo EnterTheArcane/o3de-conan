@@ -21,7 +21,7 @@ import shutil
 required_conan_version = ">=2.0"
 
 
-class GLibConan(ConanFile):
+class Recipe(ConanFile):
     name = "glib"
     version = "2.85.3"
     license = "LGPL-2.1-or-later"

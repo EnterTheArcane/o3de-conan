@@ -4,7 +4,7 @@ from conan.tools.build import can_run
 import os
 
 
-class TestPackageConan(ConanFile):
+class Recipe(ConanFile):
     license = "OFL-1.1-no-RFN"
 
     settings = "os", "arch", "compiler", "build_type"

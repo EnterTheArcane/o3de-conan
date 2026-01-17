@@ -18,7 +18,7 @@ import os
 required_conan_version = ">=2.1"
 
 
-class SpirvtoolsConan(ConanFile):
+class Recipe(ConanFile):
     name = "spirv-tools"
     version = "1.4.313.0"
     license = "Apache-2.0"

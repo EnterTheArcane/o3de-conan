@@ -12,7 +12,7 @@ from conan.tools.microsoft import unix_path
 
 
 # It will become the standard on Conan 2.x
-class TestPackageConan(ConanFile):
+class TestPackage(ConanFile):
     settings = "os", "arch", "compiler", "build_type"
     test_type = "explicit"
 

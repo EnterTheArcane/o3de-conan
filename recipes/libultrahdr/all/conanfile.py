@@ -14,7 +14,7 @@ import os
 required_conan_version = ">=2.0.0"
 
 
-class LibultrahdrConan(ConanFile):
+class Recipe(ConanFile):
     name = "libultrahdr"
     version = "1.4.0"
     license = "Apache-2.0"

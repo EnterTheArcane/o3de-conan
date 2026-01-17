@@ -16,7 +16,7 @@ import os
 required_conan_version = ">=1.54.0"
 
 
-class HighwayConan(ConanFile):
+class Recipe(ConanFile):
     name = "highway"
     version = "1.2.0"
     license = "Apache-2.0"

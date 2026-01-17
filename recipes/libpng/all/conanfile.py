@@ -17,7 +17,7 @@ import os
 required_conan_version = ">=1.53.0"
 
 
-class LibpngConan(ConanFile):
+class Recipe(ConanFile):
     name = "libpng"
     version = "1.6.53"
     license = "libpng-2.0"

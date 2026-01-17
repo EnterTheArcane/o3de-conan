@@ -9,7 +9,7 @@ from conan.tools.meson import Meson, MesonToolchain
 required_conan_version = ">=2.18"
 
 
-class LcmsConan(ConanFile):
+class Recipe(ConanFile):
     name = "lcms"
     version = "2.17"
     license = "MIT"

@@ -3,7 +3,7 @@ from conans.errors import ConanException
 import os
 
 
-class TestPackageConan(ConanFile):
+class Recipe(ConanFile):
     settings = "os", "arch", "compiler", "build_type"
     generators = "cmake", "cmake_find_package"
 

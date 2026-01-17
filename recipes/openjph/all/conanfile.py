@@ -16,7 +16,7 @@ import os
 required_conan_version = ">=2.1"
 
 
-class OpenJPH(ConanFile):
+class Recipe(ConanFile):
     name = "openjph"
     version = "0.25.3"
     license = "BSD-2-Clause"

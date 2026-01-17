@@ -7,7 +7,7 @@ import os
 required_conan_version = ">=1.50.0"
 
 
-class SpirvheadersConan(ConanFile):
+class Recipe(ConanFile):
     name = "spirv-headers"
     version = "1.4.313.0"
     license = "MIT-KhronosGroup"

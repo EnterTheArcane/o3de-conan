@@ -15,7 +15,7 @@ import os
 required_conan_version = ">=2.0"
 
 
-class OpenEXRConan(ConanFile):
+class Recipe(ConanFile):
     name = "openexr"
     version = "3.4.4"
     license = "BSD-3-Clause"

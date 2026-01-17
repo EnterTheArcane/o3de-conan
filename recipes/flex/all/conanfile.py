@@ -18,7 +18,7 @@ from conan.tools.gnu import AutotoolsToolchain, Autotools
 required_conan_version = ">=1.53.0"
 
 
-class FlexConan(ConanFile):
+class Recipe(ConanFile):
     name = "flex"
     version = "2.6.4"
     license = "BSD-2-Clause"

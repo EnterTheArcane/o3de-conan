@@ -6,7 +6,7 @@ import os
 required_conan_version = ">=1.53.0"
 
 
-class Poly2triConan(ConanFile):
+class Recipe(ConanFile):
     name = "poly2tri"
     version = "cci.20130502"
     license = "BSD-3-Clause"

@@ -12,7 +12,7 @@ import os
 required_conan_version = ">=2"
 
 
-class AssimpConan(ConanFile):
+class Recipe(ConanFile):
     name = "assimp"
     version = "6.0.2"
     license = "BSD-3-Clause"

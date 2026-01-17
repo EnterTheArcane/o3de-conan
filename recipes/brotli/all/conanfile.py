@@ -13,7 +13,7 @@ import os
 required_conan_version = ">=1.53.0"
 
 
-class BrotliConan(ConanFile):
+class Recipe(ConanFile):
     name = "brotli"
     version = "1.2.0"
     license = "MIT"

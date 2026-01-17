@@ -6,7 +6,7 @@ import os
 required_conan_version = ">=1.50.0"
 
 
-class VulkanHeadersConan(ConanFile):
+class Recipe(ConanFile):
     name = "vulkan-headers"
     version = "1.4.313.0"
     license = "Apache-2.0"

@@ -7,7 +7,7 @@ import os
 required_conan_version = ">=2.1"
 
 
-class MinizipNgConan(ConanFile):
+class Recipe(ConanFile):
     name = "minizip-ng"
     version = "4.0.7"
     license = "Zlib"

@@ -8,7 +8,7 @@ from conan.tools.files import copy, get
 from conan.errors import ConanInvalidConfiguration
 
 
-class GladConan(ConanFile):
+class Recipe(ConanFile):
     name = "glad"
     version = "2.0.8"
     license = "MIT"

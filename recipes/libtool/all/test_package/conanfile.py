@@ -13,7 +13,7 @@ import os
 import shutil
 
 
-class TestPackageConan(ConanFile):
+class TestPackage(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
     test_type = "explicit"
 

@@ -7,7 +7,7 @@ import os
 required_conan_version = ">=1.50.0"
 
 
-class StbConan(ConanFile):
+class Recipe(ConanFile):
     name = "stb"
     version = "cci.20240531"
     license = ("Unlicense", "MIT")

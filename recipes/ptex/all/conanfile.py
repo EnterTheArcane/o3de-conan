@@ -16,7 +16,7 @@ from conan.tools.gnu import PkgConfigDeps
 required_conan_version = ">=1.53.0"
 
 
-class PtexConan(ConanFile):
+class Recipe(ConanFile):
     name = "ptex"
     version = "2.4.2"
     license = "BSD-3-Clause"

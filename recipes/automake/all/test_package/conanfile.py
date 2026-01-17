@@ -12,7 +12,7 @@ from conan.tools.microsoft import unix_path
 required_conan_version = ">=1.53.0"
 
 
-class TestPackageConan(ConanFile):
+class TestPackage(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
     test_type = "explicit"
     win_bash = True

@@ -28,7 +28,7 @@ import shutil
 required_conan_version = ">=2.0"
 
 
-class LibffiConan(ConanFile):
+class Recipe(ConanFile):
     name = "libffi"
     version = "3.4.8"
     license = "MIT"

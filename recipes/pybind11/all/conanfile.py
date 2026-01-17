@@ -9,7 +9,7 @@ import os
 required_conan_version = ">=2.1"
 
 
-class PyBind11Conan(ConanFile):
+class Recipe(ConanFile):
     name = "pybind11"
     version = "3.0.1"
     license = "BSD-3-Clause"

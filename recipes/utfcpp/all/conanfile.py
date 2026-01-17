@@ -7,7 +7,7 @@ import textwrap
 required_conan_version = ">=1.50.0"
 
 
-class UtfCppConan(ConanFile):
+class Recipe(ConanFile):
     name = "utfcpp"
     version = "4.0.8"
     license = "BSL-1.0"

@@ -10,7 +10,7 @@ import os
 required_conan_version = ">=2.1"
 
 
-class LibjpegTurboConan(ConanFile):
+class Recipe(ConanFile):
     name = "libjpeg-turbo"
     version = "3.1.3"
     license = ("IJG", "BSD-3-Clause", "Zlib")

@@ -28,7 +28,7 @@ import textwrap
 required_conan_version = ">=1.54.0"
 
 
-class XZUtilsConan(ConanFile):
+class Recipe(ConanFile):
     name = "xz_utils"
     version = "5.8.1"
     license = "Unlicense", "LGPL-2.1-or-later", "GPL-2.0-or-later", "GPL-3.0-or-later"

@@ -20,7 +20,7 @@ from conan.errors import ConanInvalidConfiguration
 required_conan_version = ">=1.55.0"
 
 
-class MpdecimalConan(ConanFile):
+class Recipe(ConanFile):
     name = "mpdecimal"
     version = "4.0.0"
     license = "BSD-2-Clause"

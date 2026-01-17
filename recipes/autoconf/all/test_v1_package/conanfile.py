@@ -5,7 +5,7 @@ import contextlib
 import os
 
 
-class TestPackageConan(ConanFile):
+class Recipe(ConanFile):
     settings = "os", "arch", "compiler", "build_type"
     test_type = "explicit"
 

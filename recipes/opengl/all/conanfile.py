@@ -5,7 +5,7 @@ from conan.tools.gnu import PkgConfig
 required_conan_version = ">=1.50.0"
 
 
-class SysConfigOpenGLConan(ConanFile):
+class Recipe(ConanFile):
     name = "opengl"
     version = "system"
     license = "MIT"

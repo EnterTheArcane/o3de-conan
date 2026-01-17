@@ -13,7 +13,7 @@ import os
 required_conan_version = ">=1.53.0"
 
 
-class XxHashConan(ConanFile):
+class Recipe(ConanFile):
     name = "xxhash"
     version = "0.8.3"
     license = "BSD-2-Clause"

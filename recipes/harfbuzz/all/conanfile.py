@@ -15,7 +15,7 @@ import os
 required_conan_version = ">=2.1"
 
 
-class HarfbuzzConan(ConanFile):
+class Recipe(ConanFile):
     name = "harfbuzz"
     version = "12.3.0"
     license = "MIT"

@@ -8,7 +8,7 @@ from conan.tools.env import VirtualRunEnv
 from conan.tools.files import copy, save
 
 
-class TestPackageConan(ConanFile):
+class TestPackage(ConanFile):
     settings = "os", "arch", "compiler", "build_type"
     generators = "CMakeDeps", "CMakeToolchain", "VirtualBuildEnv"
     test_type = "explicit"

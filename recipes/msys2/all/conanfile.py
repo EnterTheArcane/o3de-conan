@@ -36,7 +36,7 @@ class lock:
     __del__ = close
 
 
-class MSYS2Conan(ConanFile):
+class Recipe(ConanFile):
     name = "msys2"
     version = "cci.latest"
     license = "MSYS license"

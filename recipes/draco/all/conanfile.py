@@ -15,7 +15,7 @@ import os
 required_conan_version = ">=1.53.0"
 
 
-class DracoConan(ConanFile):
+class Recipe(ConanFile):
     name = "draco"
     version = "1.5.7"
     license = "Apache-2.0"

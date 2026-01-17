@@ -17,7 +17,7 @@ import textwrap
 required_conan_version = ">=1.53.0"
 
 
-class OpenmeshConan(ConanFile):
+class Recipe(ConanFile):
     name = "openmesh"
     version = "11.0"
     license = "BSD-3-Clause"

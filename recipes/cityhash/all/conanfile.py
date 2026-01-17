@@ -11,7 +11,7 @@ import os
 required_conan_version = ">=1.57.0"
 
 
-class CityhashConan(ConanFile):
+class Recipe(ConanFile):
     name = "cityhash"
     version = "1.0.1"
     license = "MIT"

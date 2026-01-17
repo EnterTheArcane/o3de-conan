@@ -6,7 +6,7 @@ from conan.tools.microsoft import msvc_runtime_flag
 import os
 
 
-class TestPackageConan(ConanFile):
+class TestPackage(ConanFile):
     settings = "os", "arch", "compiler", "build_type"
     test_type = "explicit"
 

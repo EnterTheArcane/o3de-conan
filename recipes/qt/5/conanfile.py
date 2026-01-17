@@ -35,7 +35,7 @@ import shutil
 required_conan_version = ">=1.60.0 <2 || >=2.0.5"
 
 
-class QtConan(ConanFile):
+class Recipe(ConanFile):
     name = "qt"
     version = "5.15.18"
     license = "LGPL-3.0-only"

@@ -8,7 +8,7 @@ import os
 required_conan_version = ">=2.1"
 
 
-class DoubleConversionConan(ConanFile):
+class Recipe(ConanFile):
     name = "double-conversion"
     version = "3.3.0"
     license = "BSD-3-Clause"

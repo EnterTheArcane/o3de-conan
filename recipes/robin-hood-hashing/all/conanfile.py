@@ -12,7 +12,7 @@ import os
 required_conan_version = ">=1.52.0"
 
 
-class RobinHoodHashingConan(ConanFile):
+class Recipe(ConanFile):
     name = "robin-hood-hashing"
     version = "3.11.5"
     license = "MIT"

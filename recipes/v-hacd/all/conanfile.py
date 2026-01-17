@@ -9,7 +9,7 @@ import os
 required_conan_version = ">=1.50.0"
 
 
-class VhacdConan(ConanFile):
+class Recipe(ConanFile):
     name = "v-hacd"
     version = "4.1.0"
     license = "BSD-3-Clause"

@@ -6,7 +6,7 @@ import os
 required_conan_version = ">=1.53.0"
 
 
-class MikkTSpaceConan(ConanFile):
+class Recipe(ConanFile):
     name = "mikktspace"
     version = "cci.20200325"
     license = "Zlib"

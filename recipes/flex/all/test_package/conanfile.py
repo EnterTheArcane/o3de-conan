@@ -7,7 +7,7 @@ from conan.tools.build import can_run
 from conan.tools.cmake import CMake, cmake_layout, CMakeDeps, CMakeToolchain
 
 
-class TestPackageConan(ConanFile):
+class TestPackage(ConanFile):
     settings = "os", "arch", "compiler", "build_type"
 
     def requirements(self):

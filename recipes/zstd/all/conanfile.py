@@ -17,7 +17,7 @@ import os
 required_conan_version = ">=2.1"
 
 
-class ZstdConan(ConanFile):
+class Recipe(ConanFile):
     name = "zstd"
     version = "1.5.7"
     license = "BSD-3-Clause"

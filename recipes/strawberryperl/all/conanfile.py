@@ -7,7 +7,7 @@ import os
 required_conan_version = ">=1.52.0"
 
 
-class StrawberryPerlConan(ConanFile):
+class Recipe(ConanFile):
     name = "strawberryperl"
     version = "5.40.2.1"
     license = ("Artistic-1.0", "GPL-1.0")

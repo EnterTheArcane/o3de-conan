@@ -16,7 +16,7 @@ import os
 required_conan_version = ">=1.53.0"
 
 
-class C4CoreConan(ConanFile):
+class Recipe(ConanFile):
     name = "c4core"
     version = "0.2.5"
     license = ("MIT",)

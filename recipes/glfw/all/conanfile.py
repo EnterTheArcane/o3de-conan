@@ -20,7 +20,7 @@ import textwrap
 required_conan_version = ">=2.0.5"
 
 
-class GlfwConan(ConanFile):
+class Recipe(ConanFile):
     name = "glfw"
     version = "3.4"
     license = "Zlib"

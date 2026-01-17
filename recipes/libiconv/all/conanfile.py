@@ -20,7 +20,7 @@ import os
 required_conan_version = ">=2.1"
 
 
-class LibiconvConan(ConanFile):
+class Recipe(ConanFile):
     name = "libiconv"
     version = "1.18"
     license = "LGPL-2.1-or-later"

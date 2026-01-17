@@ -8,7 +8,7 @@ import os
 required_conan_version = ">=1.50.0"
 
 
-class TslRobinMapConan(ConanFile):
+class Recipe(ConanFile):
     name = "tsl-robin-map"
     version = "1.4.0"
     license = "MIT"

@@ -25,7 +25,7 @@ import textwrap
 required_conan_version = ">=1.64.0"
 
 
-class CrashpadConan(ConanFile):
+class Recipe(ConanFile):
     name = "crashpad"
     version = "cci.20220219"
     license = "Apache-2.0"

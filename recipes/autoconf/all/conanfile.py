@@ -16,7 +16,7 @@ import os
 required_conan_version = ">=1.54.0"
 
 
-class AutoconfConan(ConanFile):
+class Recipe(ConanFile):
     name = "autoconf"
     version = "2.72"
     license = ("GPL-2.0-or-later", "GPL-3.0-or-later")
