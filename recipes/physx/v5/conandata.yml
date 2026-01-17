@@ -1,0 +1,4 @@
+sources:
+  "5.6.1":
+    url: https://github.com/NVIDIA-Omniverse/PhysX/archive/refs/tags/107.3-omni-and-physx-5.6.1.tar.gz
+    sha256: TODO

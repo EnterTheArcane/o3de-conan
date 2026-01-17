@@ -1,0 +1,17 @@
+versions:
+  "3.6.0":
+    folder: v3
+  "3.5.4":
+    folder: v3
+  "3.4.3":
+    folder: v3
+  "3.3.5":
+    folder: v3
+  "3.2.6":
+    folder: v3
+  "3.1.2":
+    folder: v3
+  "3.0.18":
+    folder: v3
+  "1.1.1w":
+    folder: v1

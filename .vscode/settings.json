@@ -1,0 +1,33 @@
+{
+    "cSpell.words": [
+        "armv8",
+        "assimp",
+        "autotools",
+        "cmaketoolchain",
+        "conandata",
+        "conanfile",
+        "conanfiles",
+        "cppstd",
+        "crashpad",
+        "cxxflags",
+        "directx",
+        "dumpbin",
+        "freetype",
+        "imath",
+        "libdeflate",
+        "libjpeg",
+        "libsamplerate",
+        "luajit",
+        "minizip",
+        "msvc",
+        "nologo",
+        "nvcloth",
+        "opencolorio",
+        "openexr",
+        "openimageio",
+        "openjph",
+        "pugixml",
+        "utfcpp",
+        "validationlayers"
+    ]
+}
