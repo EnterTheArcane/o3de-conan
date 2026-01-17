@@ -22,6 +22,7 @@ required_conan_version = ">=1.55.0"
 
 class MpdecimalConan(ConanFile):
     name = "mpdecimal"
+    version = "4.0.0"
     license = "BSD-2-Clause"
 
     package_type = "library"

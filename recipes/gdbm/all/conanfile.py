@@ -20,6 +20,7 @@ required_conan_version = ">=1.54.0"
 
 class GdbmConan(ConanFile):
     name = "gdbm"
+    version = "1.23"
     license = "GPL-3.0-or-later"
 
     package_type = "library"

@@ -17,6 +17,7 @@ required_conan_version = ">=1.53.0"
 
 class DracoConan(ConanFile):
     name = "draco"
+    version = "1.5.7"
     license = "Apache-2.0"
 
     package_type = "library"

@@ -16,6 +16,7 @@ required_conan_version = ">=1.53.0"
 
 class ExpatConan(ConanFile):
     name = "expat"
+    version = "2.7.3"
     license = "MIT"
 
     package_type = "library"

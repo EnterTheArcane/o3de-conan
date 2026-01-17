@@ -21,6 +21,7 @@ required_conan_version = ">=1.55.0"
 
 class M4Conan(ConanFile):
     name = "m4"
+    version = "1.4.20"
     license = "GPL-3.0-only"
 
     package_type = "application"

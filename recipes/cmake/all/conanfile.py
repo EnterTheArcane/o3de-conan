@@ -11,6 +11,7 @@ required_conan_version = ">=2"
 
 class CMakeConan(ConanFile):
     name = "cmake"
+    version = "4.2.1"
     license = "BSD-3-Clause"
 
     package_type = "application"

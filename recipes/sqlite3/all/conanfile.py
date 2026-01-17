@@ -10,6 +10,7 @@ required_conan_version = ">=1.53.0"
 
 class Sqlite3Conan(ConanFile):
     name = "sqlite3"
+    version = "3.51.0"
     license = "Unlicense"
 
     package_type = "library"

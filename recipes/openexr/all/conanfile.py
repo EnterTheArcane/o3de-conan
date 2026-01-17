@@ -17,6 +17,7 @@ required_conan_version = ">=2.0"
 
 class OpenEXRConan(ConanFile):
     name = "openexr"
+    version = "3.4.4"
     license = "BSD-3-Clause"
 
     package_type = "library"

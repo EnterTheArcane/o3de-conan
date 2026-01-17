@@ -19,6 +19,7 @@ required_conan_version = ">=1.53.0"
 
 class OpenmeshConan(ConanFile):
     name = "openmesh"
+    version = "11.0"
     license = "BSD-3-Clause"
 
     package_type = "library"

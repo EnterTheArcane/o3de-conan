@@ -18,6 +18,7 @@ required_conan_version = ">=1.53.0"
 
 class PCRE2Conan(ConanFile):
     name = "pcre2"
+    version = "10.44"
     license = "BSD-3-Clause"
 
     package_type = "library"

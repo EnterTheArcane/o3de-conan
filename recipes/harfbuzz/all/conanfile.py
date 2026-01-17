@@ -17,6 +17,7 @@ required_conan_version = ">=2.1"
 
 class HarfbuzzConan(ConanFile):
     name = "harfbuzz"
+    version = "12.3.0"
     license = "MIT"
 
     package_type = "library"

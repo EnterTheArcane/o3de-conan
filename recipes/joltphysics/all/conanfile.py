@@ -17,6 +17,7 @@ required_conan_version = ">=2.0.9"
 
 class JoltPhysicsConan(ConanFile):
     name = "joltphysics"
+    version = "5.2.0"
     license = "MIT"
 
     package_type = "library"

@@ -14,6 +14,7 @@ required_conan_version = ">=2"
 
 class LibjxlConan(ConanFile):
     name = "libjxl"
+    version = "0.11.1"
     license = "BSD-3-Clause"
 
     package_type = "library"

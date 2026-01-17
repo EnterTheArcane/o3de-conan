@@ -18,6 +18,7 @@ required_conan_version = ">=2.4"
 
 class BisonConan(ConanFile):
     name = "bison"
+    version = "3.8.2"
     license = "GPL-3.0-or-later"
 
     settings = "os", "arch", "compiler", "build_type"

@@ -19,6 +19,7 @@ required_conan_version = ">=1.53.0"
 
 class LibpngConan(ConanFile):
     name = "libpng"
+    version = "1.6.53"
     license = "libpng-2.0"
 
     settings = "os", "arch", "compiler", "build_type"

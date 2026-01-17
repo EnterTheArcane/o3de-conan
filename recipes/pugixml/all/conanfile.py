@@ -18,6 +18,7 @@ required_conan_version = ">=1.54.0"
 
 class PugiXmlConan(ConanFile):
     name = "pugixml"
+    version = "1.15"
     license = "MIT"
 
     package_type = "library"

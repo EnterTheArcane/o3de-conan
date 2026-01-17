@@ -27,6 +27,7 @@ required_conan_version = ">=1.53.0"
 
 class FreetypeConan(ConanFile):
     name = "freetype"
+    version = "2.14.1"
     license = "FTL"
 
     package_type = "library"

@@ -15,6 +15,7 @@ required_conan_version = ">=1.53.0"
 
 class XxHashConan(ConanFile):
     name = "xxhash"
+    version = "0.8.3"
     license = "BSD-2-Clause"
 
     package_type = "library"

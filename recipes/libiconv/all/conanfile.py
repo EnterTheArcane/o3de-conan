@@ -22,6 +22,7 @@ required_conan_version = ">=2.1"
 
 class LibiconvConan(ConanFile):
     name = "libiconv"
+    version = "1.18"
     license = "LGPL-2.1-or-later"
 
     package_type = "library"

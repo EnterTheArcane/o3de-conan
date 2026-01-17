@@ -22,6 +22,7 @@ required_conan_version = ">=2.0.5"
 
 class GlfwConan(ConanFile):
     name = "glfw"
+    version = "3.4"
     license = "Zlib"
 
     package_type = "library"

@@ -10,6 +10,7 @@ required_conan_version = ">=1.50.0"
 
 class TslRobinMapConan(ConanFile):
     name = "tsl-robin-map"
+    version = "1.4.0"
     license = "MIT"
 
     package_type = "header-library"

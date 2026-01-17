@@ -11,6 +11,7 @@ required_conan_version = ">=2.0"
 
 class ImathConan(ConanFile):
     name = "imath"
+    version = "3.2.1"
     license = "BSD-3-Clause"
 
     package_type = "library"

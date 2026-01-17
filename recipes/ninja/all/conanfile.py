@@ -9,6 +9,7 @@ required_conan_version = ">=1.52.0"
 
 class NinjaConan(ConanFile):
     name = "ninja"
+    version = "1.13.2"
     license = "Apache-2.0"
 
     package_type = "application"

@@ -12,6 +12,7 @@ required_conan_version = ">=2.1"
 
 class GTestConan(ConanFile):
     name = "gtest"
+    version = "1.17.0"
     license = "BSD-3-Clause"
 
     package_type = "library"

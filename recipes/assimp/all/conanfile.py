@@ -14,6 +14,7 @@ required_conan_version = ">=2"
 
 class AssimpConan(ConanFile):
     name = "assimp"
+    version = "6.0.2"
     license = "BSD-3-Clause"
 
     package_type = "library"

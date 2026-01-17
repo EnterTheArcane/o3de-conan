@@ -9,6 +9,7 @@ required_conan_version = ">=2.1"
 
 class MinizipNgConan(ConanFile):
     name = "minizip-ng"
+    version = "4.0.7"
     license = "Zlib"
 
     package_type = "library"

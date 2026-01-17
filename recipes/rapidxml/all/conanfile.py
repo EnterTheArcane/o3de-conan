@@ -13,6 +13,7 @@ required_conan_version = ">=1.52.0"
 
 class RapiXMLConan(ConanFile):
     name = "rapidxml"
+    version = "1.13"
     license = ["BSL-1.0", "MIT"]
 
     settings = "os", "arch", "compiler", "build_type"

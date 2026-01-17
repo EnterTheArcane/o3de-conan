@@ -19,6 +19,7 @@ required_conan_version = ">=2.0"
 
 class OpenImageIOConan(ConanFile):
     name = "openimageio"
+    version = "3.1.9.0"
     license = "Apache-2.0", "BSD-3-Clause"
 
     package_type = "library"

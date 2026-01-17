@@ -8,6 +8,7 @@ required_conan_version = ">=1.50.0"
 
 class VulkanHeadersConan(ConanFile):
     name = "vulkan-headers"
+    version = "1.4.313.0"
     license = "Apache-2.0"
 
     package_type = "header-library"

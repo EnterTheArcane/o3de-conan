@@ -12,6 +12,7 @@ required_conan_version = ">=1.53.0"
 
 class UtilLinuxLibuuidConan(ConanFile):
     name = "util-linux-libuuid"
+    version = "2.41.2"
     description = "Universally unique id library"
     url = "https://github.com/conan-io/conan-center-index"
     homepage = "https://github.com/util-linux/util-linux.git"

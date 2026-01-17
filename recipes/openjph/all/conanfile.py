@@ -18,6 +18,7 @@ required_conan_version = ">=2.1"
 
 class OpenJPH(ConanFile):
     name = "openjph"
+    version = "0.25.3"
     license = "BSD-2-Clause"
 
     package_type = "library"

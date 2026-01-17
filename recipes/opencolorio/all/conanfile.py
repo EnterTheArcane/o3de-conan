@@ -20,6 +20,7 @@ required_conan_version = ">=1.53.0"
 
 class OpenColorIOConan(ConanFile):
     name = "opencolorio"
+    version = "2.5.0"
     license = "BSD-3-Clause"
 
     settings = "os", "arch", "compiler", "build_type"

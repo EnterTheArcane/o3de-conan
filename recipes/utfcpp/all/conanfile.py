@@ -9,6 +9,7 @@ required_conan_version = ">=1.50.0"
 
 class UtfCppConan(ConanFile):
     name = "utfcpp"
+    version = "4.0.8"
     license = "BSL-1.0"
 
     package_type = "header-library"

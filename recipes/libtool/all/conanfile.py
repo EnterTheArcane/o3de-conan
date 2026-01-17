@@ -24,6 +24,7 @@ required_conan_version = ">=2.4"
 
 class LibtoolConan(ConanFile):
     name = "libtool"
+    version = "2.4.7"
     license = ("GPL-2.0-or-later", "GPL-3.0-or-later")
 
     # most common use is as "application", but library traits

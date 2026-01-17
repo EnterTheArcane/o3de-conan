@@ -8,6 +8,7 @@ required_conan_version = ">=1.53.0"
 
 class LibdeflateConan(ConanFile):
     name = "libdeflate"
+    version = "1.25"
     license = "MIT"
 
     package_type = "library"

@@ -19,6 +19,7 @@ required_conan_version = ">=2.1"
 
 class YamlCppConan(ConanFile):
     name = "yaml-cpp"
+    version = "0.8.0"
     license = "MIT"
 
     package_type = "library"

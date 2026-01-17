@@ -16,6 +16,7 @@ required_conan_version = ">=1.53.0"
 
 class ZlibConan(ConanFile):
     name = "zlib"
+    version = "1.3.1"
     license = "Zlib"
 
     package_type = "library"

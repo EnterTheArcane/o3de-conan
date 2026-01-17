@@ -30,6 +30,7 @@ required_conan_version = ">=2.0"
 
 class LibffiConan(ConanFile):
     name = "libffi"
+    version = "3.4.8"
     license = "MIT"
 
     settings = "os", "arch", "compiler", "build_type"

@@ -37,6 +37,7 @@ required_conan_version = ">=1.58.0"
 
 class CPythonConan(ConanFile):
     name = "cpython"
+    version = "3.12.7"
     license = "Python-2.0"
 
     package_type = "library"

@@ -11,6 +11,7 @@ required_conan_version = ">=2"
 
 class LuauConan(ConanFile):
     name = "luau"
+    version = "0.700"
     license = "MIT"
 
     package_type = "static-library"

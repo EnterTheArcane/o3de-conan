@@ -16,6 +16,7 @@ required_conan_version = ">=1.64.0 <2 || >=2.2.0"
 
 class FontconfigConan(ConanFile):
     name = "fontconfig"
+    version = "2.15.0"
     license = "MIT"
     url = "https://github.com/conan-io/conan-center-index"
     description = "Fontconfig is a library for configuring and customizing font access"

@@ -8,6 +8,7 @@ required_conan_version = ">=1.53.0"
 
 class PystringConan(ConanFile):
     name = "pystring"
+    version = "1.1.4"
     license = "BSD-3-Clause"
 
     package_type = "library"

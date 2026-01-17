@@ -19,6 +19,7 @@ required_conan_version = ">=2.1"
 
 class FmtConan(ConanFile):
     name = "fmt"
+    version = "12.1.0"
     license = "MIT"
 
     package_type = "library"

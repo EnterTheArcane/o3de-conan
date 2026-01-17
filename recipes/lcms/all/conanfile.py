@@ -11,6 +11,7 @@ required_conan_version = ">=2.18"
 
 class LcmsConan(ConanFile):
     name = "lcms"
+    version = "2.17"
     license = "MIT"
 
     package_type = "library"

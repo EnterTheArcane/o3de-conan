@@ -27,6 +27,7 @@ required_conan_version = ">=1.64.0"
 
 class CrashpadConan(ConanFile):
     name = "crashpad"
+    version = "cci.20220219"
     license = "Apache-2.0"
 
     provides = "mini_chromium"

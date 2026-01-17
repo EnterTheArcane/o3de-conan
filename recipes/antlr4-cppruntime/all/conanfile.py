@@ -22,6 +22,7 @@ required_conan_version = ">=1.53.0"
 
 class Antlr4CppRuntimeConan(ConanFile):
     name = "antlr4-cppruntime"
+    version = "4.13.2"
     license = "BSD-3-Clause"
 
     package_type = "library"

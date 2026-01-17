@@ -20,6 +20,7 @@ required_conan_version = ">=1.55.0"
 
 class NASMConan(ConanFile):
     name = "nasm"
+    version = "3.01"
     license = "BSD-2-Clause"
 
     package_type = "application"

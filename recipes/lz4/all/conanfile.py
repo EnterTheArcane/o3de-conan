@@ -18,6 +18,7 @@ required_conan_version = ">=2.1"
 
 class LZ4Conan(ConanFile):
     name = "lz4"
+    version = "1.10.0"
     license = ("BSD-2-Clause", "BSD-3-Clause")
 
     package_type = "library"

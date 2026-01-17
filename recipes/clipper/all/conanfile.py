@@ -14,6 +14,7 @@ required_conan_version = ">=2.1"
 
 class ClipperConan(ConanFile):
     name = "clipper"
+    version = "6.4.2"
     license = "BSL-1.0"
 
     package_type = "library"

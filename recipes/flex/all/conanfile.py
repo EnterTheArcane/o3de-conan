@@ -20,6 +20,7 @@ required_conan_version = ">=1.53.0"
 
 class FlexConan(ConanFile):
     name = "flex"
+    version = "2.6.4"
     license = "BSD-2-Clause"
 
     settings = "os", "arch", "compiler", "build_type"

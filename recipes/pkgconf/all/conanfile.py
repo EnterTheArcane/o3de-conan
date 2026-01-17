@@ -23,6 +23,7 @@ required_conan_version = ">=1.57.0"
 
 class PkgConfConan(ConanFile):
     name = "pkgconf"
+    version = "2.5.1"
     license = "ISC"
 
     package_type = "application"

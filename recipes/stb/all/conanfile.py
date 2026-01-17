@@ -9,6 +9,7 @@ required_conan_version = ">=1.50.0"
 
 class StbConan(ConanFile):
     name = "stb"
+    version = "cci.20240531"
     license = ("Unlicense", "MIT")
 
     package_type = "header-library"

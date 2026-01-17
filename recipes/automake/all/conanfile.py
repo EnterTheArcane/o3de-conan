@@ -20,6 +20,7 @@ required_conan_version = ">=2.0"
 
 class AutomakeConan(ConanFile):
     name = "automake"
+    version = "1.16.5"
     license = ("GPL-2.0-or-later", "GPL-3.0-or-later")
 
     package_type = "application"

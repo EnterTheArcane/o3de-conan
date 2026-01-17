@@ -10,6 +10,7 @@ required_conan_version = ">=2.1"
 
 class DoubleConversionConan(ConanFile):
     name = "double-conversion"
+    version = "3.3.0"
     license = "BSD-3-Clause"
 
     package_type = "library"

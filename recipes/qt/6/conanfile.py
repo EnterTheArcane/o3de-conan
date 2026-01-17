@@ -29,6 +29,7 @@ required_conan_version = ">=2.0"
 
 class QtConan(ConanFile):
     name = "qt"
+    version = "6.10.1"
     license = "LGPL-3.0-only"
 
     _submodules = [

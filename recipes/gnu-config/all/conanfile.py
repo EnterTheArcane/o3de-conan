@@ -16,6 +16,7 @@ required_conan_version = ">=1.52.0"
 
 class GnuConfigConan(ConanFile):
     name = "gnu-config"
+    version = "cci.20210814"
     license = "GPL-3.0-or-later", "autoconf-special-exception"
 
     package_type = "build-scripts"

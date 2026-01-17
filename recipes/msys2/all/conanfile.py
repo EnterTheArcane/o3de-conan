@@ -38,6 +38,7 @@ class lock:
 
 class MSYS2Conan(ConanFile):
     name = "msys2"
+    version = "cci.latest"
     license = "MSYS license"
 
     settings = "os", "arch"

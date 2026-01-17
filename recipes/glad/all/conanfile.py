@@ -10,6 +10,7 @@ from conan.errors import ConanInvalidConfiguration
 
 class GladConan(ConanFile):
     name = "glad"
+    version = "2.0.8"
     license = "MIT"
 
     settings = "os", "compiler", "build_type", "arch"

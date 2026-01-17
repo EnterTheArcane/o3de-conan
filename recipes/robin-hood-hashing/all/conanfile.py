@@ -14,6 +14,7 @@ required_conan_version = ">=1.52.0"
 
 class RobinHoodHashingConan(ConanFile):
     name = "robin-hood-hashing"
+    version = "3.11.5"
     license = "MIT"
 
     package_type = "header-library"

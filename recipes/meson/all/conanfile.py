@@ -11,6 +11,7 @@ required_conan_version = ">=1.52.0"
 
 class MesonConan(ConanFile):
     name = "meson"
+    version = "1.9.1"
     license = "Apache-2.0"
 
     package_type = "application"

@@ -13,6 +13,7 @@ required_conan_version = ">=2.1"
 
 class GetTextConan(ConanFile):
     name = "gettext"
+    version = "0.26"
     package_type = "application"
     description = "An internationalization and localization system for multilingual programs"
     topics = ("intl", "libintl", "i18n")

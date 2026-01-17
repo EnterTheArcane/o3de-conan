@@ -21,6 +21,7 @@ required_conan_version = ">=1.53.0"
 
 class NvclothConan(ConanFile):
     name = "nvcloth"
+    version = "1.1.6"
     license = "Nvidia Source Code License (1-Way Commercial)"
 
     package_type = "library"

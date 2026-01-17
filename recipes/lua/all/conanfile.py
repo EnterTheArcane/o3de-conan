@@ -20,6 +20,7 @@ required_conan_version = ">=2.1"
 
 class LuaConan(ConanFile):
     name = "lua"
+    version = "5.4.8"
     license = "MIT"
 
     package_type = "library"

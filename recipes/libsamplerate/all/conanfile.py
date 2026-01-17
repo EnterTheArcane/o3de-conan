@@ -11,6 +11,7 @@ required_conan_version = ">=1.53.0"
 
 class LibsamplerateConan(ConanFile):
     name = "libsamplerate"
+    version = "0.2.2"
     license = "BSD-2-Clause"
 
     package_type = "library"

@@ -14,6 +14,7 @@ required_conan_version = ">=1.52.0"
 
 class DirectXHeadersConan(ConanFile):
     name = "directx-headers"
+    version = "1.618.2"
     license = "MIT"
 
     package_type = "static-library"

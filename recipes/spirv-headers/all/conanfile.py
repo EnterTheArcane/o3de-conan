@@ -9,6 +9,7 @@ required_conan_version = ">=1.50.0"
 
 class SpirvheadersConan(ConanFile):
     name = "spirv-headers"
+    version = "1.4.313.0"
     license = "MIT-KhronosGroup"
 
     package_type = "header-library"

@@ -15,6 +15,7 @@ required_conan_version = ">=1.53.0"
 
 class MinizipConan(ConanFile):
     name = "minizip"
+    version = "1.3.1"
     license = "Zlib"
 
     package_type = "library"

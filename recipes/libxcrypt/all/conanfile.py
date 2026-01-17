@@ -13,6 +13,7 @@ required_conan_version = ">=1.53.0"
 
 class LibxcryptConan(ConanFile):
     name = "libxcrypt"
+    version = "4.4.36"
     license = ("LGPL-2.1-or-later",)
 
     settings = "os", "arch", "compiler", "build_type"

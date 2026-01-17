@@ -30,6 +30,7 @@ required_conan_version = ">=1.57.0"
 
 class ICUConan(ConanFile):
     name = "icu"
+    version = "78.1"
     license = "ICU"
 
     package_type = "library"

@@ -16,6 +16,7 @@ required_conan_version = ">=2.0"
 
 class GetTextConan(ConanFile):
     name = "libgettext"
+    version = "0.26"
     # Some parts of the project are GPL-3.0-or-later and some are LGPL-2.1-or-later.
     # At this time, only libintl is packaged, which is licensed under the LGPL-2.1-or-later.
     # If you modify this package to include other portions of the library, please configure the license accordingly.

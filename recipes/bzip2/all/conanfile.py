@@ -16,6 +16,7 @@ required_conan_version = ">=1.53.0"
 
 class Bzip2Conan(ConanFile):
     name = "bzip2"
+    version = "1.0.8"
     license = "bzip2-1.0.6"  # SPDX license identifier for version 1.0.6 or newer
 
     package_type = "library"

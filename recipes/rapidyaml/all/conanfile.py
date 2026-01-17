@@ -18,6 +18,7 @@ required_conan_version = ">=1.53.0"
 
 class RapidYAMLConan(ConanFile):
     name = "rapidyaml"
+    version = "0.10.0"
     license = ("MIT",)
 
     settings = "os", "arch", "compiler", "build_type"

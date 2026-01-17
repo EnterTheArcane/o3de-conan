@@ -11,6 +11,7 @@ required_conan_version = ">=2.0.0"
 
 class BenchmarkConan(ConanFile):
     name = "benchmark"
+    version = "1.9.4"
     license = "Apache-2.0"
 
     package_type = "library"

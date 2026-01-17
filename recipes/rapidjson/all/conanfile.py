@@ -8,6 +8,7 @@ required_conan_version = ">=1.50.0"
 
 class RapidjsonConan(ConanFile):
     name = "rapidjson"
+    version = "1.1.0"
     license = "MIT"
 
     package_type = "header-library"

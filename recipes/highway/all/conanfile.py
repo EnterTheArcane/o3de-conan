@@ -18,6 +18,7 @@ required_conan_version = ">=1.54.0"
 
 class HighwayConan(ConanFile):
     name = "highway"
+    version = "1.2.0"
     license = "Apache-2.0"
 
     package_type = "library"
